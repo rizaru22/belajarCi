@@ -1,0 +1,11 @@
+CRITICAL - 2022-02-16 17:49:42 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 D:\xamp7p\htdocs\ci-test\system\View\View.php(210): include()
+#1 D:\xamp7p\htdocs\ci-test\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xamp7p\htdocs\ci-test\system\Common.php(1089): CodeIgniter\View\View->render('pages/welcome.p...', Array, true)
+#3 D:\xamp7p\htdocs\ci-test\app\Controllers\Pages.php(10): view('pages/welcome.p...')
+#4 D:\xamp7p\htdocs\ci-test\system\CodeIgniter.php(825): App\Controllers\Pages->index()
+#5 D:\xamp7p\htdocs\ci-test\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#6 D:\xamp7p\htdocs\ci-test\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xamp7p\htdocs\ci-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xamp7p\htdocs\ci-test\system\Commands\Server\rewrite.php(43): require_once('D:\\xamp7p\\htdoc...')
+#9 {main}
